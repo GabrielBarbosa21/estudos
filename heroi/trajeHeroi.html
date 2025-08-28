@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trajeHeroi</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+
+            
+            <legend>ESCOLHA O TRAJE</legend>
+            <label for="cor">Cor do traje</label>
+            <input type="color" id="cor" name="cor" required>
+            <br>
+
+            <label for="Durabilidade">Durabilidade do traje</label>
+            <input type="range" name="Durabilidade" id="Durabilidade" min="0" max="100" value="50">
+            <br>
+
+            <label for="emblema">Upload do emblema do time:</label>
+            <input type="file" id="emblema" name="emblema" accept="image/*">
+            <br>
+
+            <label for="acessorios">Pesquisar acessórios:</label>
+            <input type="search" id="acessorios" name="acessorios" placeholder="Ex: capa, botas, luvas">
+            <br>
+
+            <label for="semana">Semana da entrega:</label>
+            <input type="week" id="semana" name="semana">
+            <br>
+
+            <label for="hora">Hora exata da entrega:</label>
+            <input type="time" id="hora" name="hora">
+
+            <br>
+            <button type="submit">Enviar Personalização</button>
+            <button type="reset">Resetar Formulário</button>
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>

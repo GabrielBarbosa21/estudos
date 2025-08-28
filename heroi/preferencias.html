@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PreferenciasHeroi</title>
+</head>
+
+<body>
+    <form>
+
+        <!-- plataforma jogo -->
+        <fieldset>
+            <legend>plataforma de jogo favorita</legend>
+            <label>
+                <input type="radio" name="plataforma" value="pc" required>
+                Pc
+            </label><br>
+            <label>
+                <input type="radio" name="plataforma" value="playstation">
+                PlayStation
+            </label><br>
+
+            <label>
+                <input type="radio" name="plataforma" value="xbox">
+                Xbox
+            </label><br>
+
+            <label>
+                <input type="radio" name="plataforma" value="nintendo">
+                Nintendo
+            </label>
+        </fieldset>
+
+
+        <!-- filme -->
+
+
+        <fieldset>
+            <legend>Franquias de filmes favoritas</legend>
+
+            <label>
+                <input type="checkbox" name="franquias" value="senhor_dos_aneis">
+                Senhor dos Anéis
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="franquias" value="star_wars">
+                Star Wars
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="franquias" value="marvel">
+                Marvel
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="franquias" value="dc">
+                DC
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Nível de Poder</legend>
+
+            <label for="poder">Escolha seu nível:</label>
+            <select id="poder" name="poder" required>
+                <option value="">-- Selecione --</option>
+                <option value="nenhum">Nenhum</option>
+                <option value="novato">Novato</option>
+                <option value="experiente">Experiente</option>
+                <option value="lendario">Lendário</option>
+            </select>
+        </fieldset>
+
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+
+</html>
